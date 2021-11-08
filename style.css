@@ -1,0 +1,47 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: cadetblue;
+}
+
+.piano{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.black{
+    background-color: black;
+    height: 140px;
+    width: 45px;
+    margin-left: -34px;
+    margin-right: -24px;
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.white{
+    background-color: white;
+    width: 90px;
+    height: 240px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.white:active {
+    background-color: #f1eded;
+  }
+
+  .black:active {
+    background-color: rgb(39, 37, 37);
+  }
+
+  
